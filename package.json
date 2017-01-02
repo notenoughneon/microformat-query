@@ -1,0 +1,29 @@
+{
+  "name": "microformat-query",
+  "version": "0.1.0",
+  "description": "Fluent interface for microformats",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "typings install",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notenoughneon/microformat-query.git"
+  },
+  "keywords": [
+    "microformat",
+    "indieweb"
+  ],
+  "author": "Emma Kuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notenoughneon/microformat-query/issues"
+  },
+  "homepage": "https://github.com/notenoughneon/microformat-query#readme",
+  "devDependencies": {
+    "typescript": "^2.1.4",
+    "typings": "^2.1.0"
+  }
+}

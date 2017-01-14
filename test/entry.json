@@ -1,0 +1,264 @@
+{
+  "items": [
+    {
+      "type": [
+        "h-entry"
+      ],
+      "properties": {
+        "author": [
+          {
+            "value": "Emma Kuo",
+            "type": [
+              "h-card"
+            ],
+            "properties": {
+              "name": [
+                "Emma Kuo"
+              ],
+              "photo": [
+                "http://notenoughneon.com/m/emma-2016-128.jpg"
+              ],
+              "url": [
+                "http://notenoughneon.com"
+              ]
+            }
+          }
+        ],
+        "url": [
+          "http://notenoughneon.com/2016/6/4/1"
+        ],
+        "published": [
+          "2016-06-04T18:31:19.303Z"
+        ],
+        "content": [
+          {
+            "value": "I'm demoing skein at #indieweb summit 2016!",
+            "html": "<div class=\"note-content\">I'm demoing skein at #indieweb summit 2016!</div>"
+          }
+        ],
+        "name": [
+          "I'm demoing skein at #indieweb summit 2016!"
+        ],
+        "syndicate-to": [
+          "https://brid.gy/publish/twitter"
+        ],
+        "category": [
+          "indieweb"
+        ],
+        "syndication": [
+          "https://twitter.com/notenoughneon/status/739162425602113536"
+        ]
+      },
+      "children": [
+        {
+          "value": "helping with a reply\n                           - \n                              4 Jun 2016 11:32\n                          \n                          this is a reply to Emma",
+          "type": [
+            "h-cite"
+          ],
+          "properties": {
+            "name": [
+              "helping with a reply"
+            ],
+            "author": [
+              {
+                "type": [
+                  "h-card"
+                ],
+                "properties": {
+                  "url": [
+                    "https://bear.im/"
+                  ]
+                }
+              }
+            ],
+            "url": [
+              "https://bear.im/bearlog/2016/156/helping-with-a-reply.html"
+            ],
+            "published": [
+              "2016-06-04T18:32:40.000Z"
+            ],
+            "content": [
+              {
+                "value": "this is a reply to Emma",
+                "html": "this is a reply to Emma\n                          "
+              }
+            ]
+          }
+        },
+        {
+          "value": "Tantek Çelik liked this.",
+          "type": [
+            "h-cite"
+          ],
+          "properties": {
+            "like-of": [
+              "http://notenoughneon.com/2016/6/4/1"
+            ],
+            "author": [
+              {
+                "value": "Tantek Çelik",
+                "type": [
+                  "h-card"
+                ],
+                "properties": {
+                  "name": [
+                    "Tantek Çelik"
+                  ],
+                  "url": [
+                    "http://tantek.com/"
+                  ]
+                }
+              }
+            ],
+            "url": [
+              "http://tantek.com/2016/156/f1"
+            ],
+            "published": [
+              "2016-06-04T18:32:00.000Z"
+            ],
+            "name": [
+              "Tantek Çelik liked this."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": [
+        "h-card"
+      ],
+      "properties": {
+        "photo": [
+          "http://notenoughneon.com/m/emma-2016-128.jpg"
+        ],
+        "name": [
+          "Emma Kuo"
+        ],
+        "url": [
+          "http://notenoughneon.com"
+        ],
+        "uid": [
+          "http://notenoughneon.com"
+        ]
+      }
+    }
+  ],
+  "rels": {
+    "stylesheet": [
+      "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",
+      "http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css",
+      "http://notenoughneon.com/css/blog.css"
+    ],
+    "feed": [
+      "http://notenoughneon.com/",
+      "http://notenoughneon.com/replies"
+    ],
+    "authorization_endpoint": [
+      "https://api.notenoughneon.com/api/auth"
+    ],
+    "token_endpoint": [
+      "https://api.notenoughneon.com/api/token"
+    ],
+    "micropub": [
+      "https://api.notenoughneon.com/api/micropub"
+    ],
+    "webmention": [
+      "https://api.notenoughneon.com/api/webmention"
+    ],
+    "me": [
+      "http://notenoughneon.com",
+      "https://twitter.com/notenoughneon",
+      "http://instagram.com/emmackuo",
+      "https://soundcloud.com/notenoughneon",
+      "https://github.com/notenoughneon",
+      "http://www.linkedin.com/pub/emma-kuo/25/15a/586"
+    ]
+  },
+  "rel-urls": {
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css": {
+      "rels": [
+        "stylesheet"
+      ]
+    },
+    "http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css": {
+      "rels": [
+        "stylesheet"
+      ]
+    },
+    "http://notenoughneon.com/css/blog.css": {
+      "rels": [
+        "stylesheet"
+      ]
+    },
+    "http://notenoughneon.com/": {
+      "type": "text/html",
+      "title": "Articles+Notes",
+      "rels": [
+        "feed"
+      ]
+    },
+    "http://notenoughneon.com/replies": {
+      "type": "text/html",
+      "title": "Replies",
+      "rels": [
+        "feed"
+      ]
+    },
+    "https://api.notenoughneon.com/api/auth": {
+      "rels": [
+        "authorization_endpoint"
+      ]
+    },
+    "https://api.notenoughneon.com/api/token": {
+      "rels": [
+        "token_endpoint"
+      ]
+    },
+    "https://api.notenoughneon.com/api/micropub": {
+      "rels": [
+        "micropub"
+      ]
+    },
+    "https://api.notenoughneon.com/api/webmention": {
+      "rels": [
+        "webmention"
+      ]
+    },
+    "http://notenoughneon.com": {
+      "text": "Emma Kuo",
+      "rels": [
+        "me"
+      ]
+    },
+    "https://twitter.com/notenoughneon": {
+      "text": "Twitter",
+      "rels": [
+        "me"
+      ]
+    },
+    "http://instagram.com/emmackuo": {
+      "text": "Instagram",
+      "rels": [
+        "me"
+      ]
+    },
+    "https://soundcloud.com/notenoughneon": {
+      "text": "SoundCloud",
+      "rels": [
+        "me"
+      ]
+    },
+    "https://github.com/notenoughneon": {
+      "text": "Github",
+      "rels": [
+        "me"
+      ]
+    },
+    "http://www.linkedin.com/pub/emma-kuo/25/15a/586": {
+      "text": "LinkedIn",
+      "rels": [
+        "me"
+      ]
+    }
+  }
+}

@@ -111,4 +111,47 @@ describe('Query', function() {
             }
         )
     })
+
+    it('empty proplist default value()', function() {
+        assert.deepEqual(
+            mq.items().prop('bogus').value(),
+            null
+        )
+    })
+
+    it('empty proplist default html()', function() {
+        assert.deepEqual(
+            mq.items().prop('bogus').html(),
+            null
+        )
+    })
+
+    it('empty proplist default type()', function() {
+        assert.deepEqual(
+            mq.items().prop('bogus').type(),
+            []
+        )
+    })
+
+    it('empty proplist default prop()', function() {
+        assert.equal(
+            mq.items().prop('bogus').prop('name').length,
+            0
+        )
+    })
+
+    it('empty proplist default children()', function() {
+        assert.equal(
+            mq.items().prop('bogus').children().length,
+            0
+        )
+    })
+
+    it('empty proplist default toJf2()', function() {
+        assert.deepEqual(
+            mq.items().prop('bogus').toJf2(),
+            null
+        )
+    })
+
 })

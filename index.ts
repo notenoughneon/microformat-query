@@ -45,12 +45,12 @@ type PropList = PropWrapper[] & PropListMethods
 
 function mixinConvenienceMethods(props: PropWrapper[]) {
     let pl = <PropList>props
-    pl.value = () => pl[0].value()
-    pl.html = () => pl[0].html()
-    pl.type = () => pl[0].type()
-    pl.prop = (p) => pl[0].prop(p)
-    pl.children = () => pl[0].children()
-    pl.toJf2 = () => pl[0].toJf2()
+    pl.value = () => pl[0] ? pl[0].value() : null
+    pl.html = () => pl[0] ? pl[0].html() : null
+    pl.type = () => pl[0] ? pl[0].type() : []
+    pl.prop = (p) => pl[0] ? pl[0].prop(p) : mixinConvenienceMethods([])
+    pl.children = () => pl[0] ? pl[0].children() : mixinConvenienceMethods([])
+    pl.toJf2 = () => pl[0] ? pl[0].toJf2() : null
     pl.byType = (type) => {
         let items = pl.filter(i => i.type().some(t => t === type))
         return mixinConvenienceMethods(items)

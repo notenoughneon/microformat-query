@@ -45,6 +45,20 @@ describe('Query', function() {
         )
     })
 
+    it('can read embedded microformats', function() {
+        assert.deepEqual(
+            mq.items().prop('author').value(),
+            'Emma Kuo'
+        )
+    })
+
+    it('can read children', function() {
+        assert.deepEqual(
+            mq.items().children().map(c => c.type()),
+            [['h-cite'], ['h-cite']]
+        )
+    })
+
     it('can convert items to jf2', function() {
         assert.deepEqual(
             mq.items().toJf2(),

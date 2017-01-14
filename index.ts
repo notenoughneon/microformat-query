@@ -24,6 +24,7 @@ interface Jf2 {
 interface PropListMethods {
     value(): string
     html(): string
+    type(): string[]
     prop(name: string): PropList
     children(): PropList
     toJf2(): Jf2
@@ -46,6 +47,7 @@ function mixinConvenienceMethods(props: PropWrapper[]) {
     let pl = <PropList>props
     pl.value = () => pl[0].value()
     pl.html = () => pl[0].html()
+    pl.type = () => pl[0].type()
     pl.prop = (p) => pl[0].prop(p)
     pl.children = () => pl[0].children()
     pl.toJf2 = () => pl[0].toJf2()
